@@ -22,6 +22,13 @@ vagrant up
 vagrant ssh
 vagrant destroy
 ```
+## Discover Vagrant Boxes
+```
+from:
+https://atlas.hashicorp.com/boxes/search
+eg, 
+vagrant init ubuntu/trusty64; vagrant up --provider virtualbox
+```
 ## additional box command 
 ```
 vagrant box list
