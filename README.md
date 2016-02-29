@@ -22,6 +22,22 @@ vagrant up
 vagrant ssh
 vagrant destroy
 ```
+## additional box command 
+```
+vagrant box list
+hashicorp/precise64 (virtualbox, 1.1.0)
+precise32           (virtualbox, 0)
+➜  test vagrant box remote precise32
+Usage: vagrant box <subcommand> [<args>]
+
+Available subcommands:
+     add
+     list
+     outdated
+     remove
+     repackage
+     update
+```
 
 These commands will bring up the Vagrant box, SSH into it, and then remove it respectively.
 
